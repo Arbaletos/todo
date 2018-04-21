@@ -1,4 +1,4 @@
 #!/bin/bash
-export FLASK_APP=todo
-export FLASK_DEBUG=true
+export FLASK_APP=todo/todo.py
+flask initdb
 flask run
